@@ -10,7 +10,8 @@ const routes = {
   css: {
     watch: "src/scss/*",
     src: "src/scss/styles.scss",
-    dest: "dist/css",
+    dest: "src/css",
+    // dest: "dist/css",
   },
 };
 
@@ -31,7 +32,7 @@ const watch = () => {
   gulp.watch(routes.css.watch, styles);
 };
 
-const clean = () => del(["dist/styles.css"]);
+const clean = () => del(["src/css/styles.css"]);
 
 const prepare = gulp.series([clean]);
 

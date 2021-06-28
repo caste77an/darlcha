@@ -1,0 +1,358 @@
+import "../css/main.css";
+
+function Products() {
+  return (
+    <div className="Products">
+      <div className="products d-flex flex-column align-items-center justify-content-center py-5">
+        <p className="product_intro_ko">검정보리 음료</p>
+        <p className="product_intro_en my-0">BLACK BARLEY SERIES</p>
+        <div className="product_intro_des">
+          <p>
+            커피를 좋아하지만 카페인은 싫은 당신을 위한 '페이크 커피'입니다.
+            <br />
+            카페인이 전혀 없고, 칼로리도 낮고, 라떼 제품은 락토프리 우유를
+            사용하여
+            <br />
+            언제나 부담없이 즐기실 수 있답니다.
+          </p>
+        </div>
+        <div className="pc_screen">
+          <div className="product container mw-100">
+            <div className="row d-flex justify-content-center">
+              <div className="product_li col-md"></div>
+              <div className="product_li col-md-5 d-flex justify-content-center">
+                <img
+                  src="https://darlcha-store.s3.amazonaws.com/static/media/latte_home.3a45f28d.png"
+                  className="product_li_image"
+                  alt=""
+                />
+              </div>
+              <div className="product_li col-md"></div>
+              <div className="product_li col-md-12 d-flex justify-content-center mt-4">
+                <div className="product_li_txt d-flex flex-column">
+                  <p className="product_li_titl">달차 검정보리라떼</p>
+                  <p className="product_li_des">
+                    은은한 달콤함과 고소함이 특징인 검정보리 라떼입니다.
+                    칼로리가 100ml당 22.5칼로리로 시중 라떼의 1/4 수준이에요.
+                    2021년 새롭게 리뉴얼된 제품으로 더 풍부한 맛을 느껴보세요.
+                  </p>
+                  <p className="product_li_pkg">6 / 12 / 24 개입</p>
+
+                  <div className="container p-0">
+                    <div className="row mx-0">
+                      <div className="col-3 p-0">
+                        <div className="product_li_price">
+                          <p>15,390 원~</p>
+                        </div>
+                      </div>
+                      <div className="col-5 p-0"></div>
+                      <div className="col d-flex align-items-end justify-content-between mb-1 p-0">
+                        <div className="product_btn d-flex align-items-end justify-content-between w-100">
+                          <div className="btn-per px-1">최대 25% 할인</div>
+                          <div className="btn-fir px-1 ml-2">
+                            첫구매 추가할인
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product container mw-100">
+          <div className="row">
+            <div className="product_li col"></div>
+            <div className="product_li col-5 d-flex justify-content-center">
+              <img
+                src="https://darlcha-store.s3.amazonaws.com/static/media/original_home.13a1f129.png"
+                className="product_li_image"
+                alt=""
+              />
+            </div>
+            <div className="product_li col"></div>
+            <div className="product_li col-12 d-flex justify-content-center mt-4">
+              <div className="product_li_txt d-flex flex-column">
+                <p className="product_li_titl">달차 검정보리오리지널</p>
+                <p className="product_li_des">
+                  진한 보리차와 아메리카노 사이의 고소함과 쌉쌀함을 특징으로
+                  하는 검정보리 오리지널입니다. 물 대신, 아메리카노 대신 카페인
+                  걱정없이 데일리 음료로 가볍게 즐기기에 제격이에요.
+                </p>
+                <p className="product_li_pkg">6 / 12 / 24 개입</p>
+
+                <div className="container p-0">
+                  <div className="row mx-0">
+                    <div className="col-3 p-0">
+                      <div className="product_li_price">
+                        <p>13,110 원~</p>
+                      </div>
+                    </div>
+                    <div className="col-5 p-0"></div>
+                    <div className="col d-flex align-items-end justify-content-between mb-1 p-0">
+                      <div className="product_btn d-flex align-items-end justify-content-between w-100">
+                        <div className="btn-per px-1">최대 25% 할인</div>
+                        <div className="btn-fir px-1 ml-2">첫구매 추가할인</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product container">
+          <div className="row">
+            <div className="product_li col"></div>
+            <div className="product_li col-5 d-flex justify-content-center">
+              <img
+                src="https://darlcha-store.s3.amazonaws.com/static/media/bundle_home.36ecc38c.png"
+                className="product_li_image"
+                alt=""
+              />
+            </div>
+            <div className="product_li col"></div>
+            <div className="product_li col-12 d-flex justify-content-center mt-4">
+              <div className="product_li_txt d-flex flex-column">
+                <p className="product_li_titl">검정보리라떼 & 오리지널 번들</p>
+                <p className="product_li_des">
+                  검정보리 라떼와 오리지널을 한 번에 즐길 수 있는 번들
+                  제품입니다. 각 제품 6병씩 총 12병으로 구성되어 있어요. 둘 중
+                  어느 제품을 구매할지 고민되신다면, 번들을 선택해보세요.
+                </p>
+                <p className="product_li_pkg">12 개입(6 + 6)</p>
+
+                <div className="container p-0">
+                  <div className="row mx-0">
+                    <div className="col-3 p-0">
+                      <div className="product_li_price">
+                        <p>25,500 원~</p>
+                      </div>
+                    </div>
+                    <div className="col-5 p-0"></div>
+                    <div className="col d-flex align-items-end justify-content-between mb-1 p-0">
+                      <div className="product_btn d-flex align-items-end justify-content-between w-100">
+                        <div className="btn-per px-3">15% 할인</div>
+                        <div className="btn-fir px-1 ml-2">첫구매 추가할인</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="darlcha3 d-flex flex-column align-items-center pt-5">
+        <p className="darlcha3_titl">달차의 세 가지 원칙</p>
+        <p className="darlcha3_des m-0">
+          달차는 무카페인과 무설탕을 원칙으로 하고 있어요.
+          <br />
+          라떼 제품은 소화가 잘되는 락토프리 우유만을 사용합니다.
+        </p>
+        <div className="container p-0 mt-5">
+          <div className="row">
+            <div className="col d-flex justify-content-center w-100 p-0">
+              <div className="darlcha3_img1 d-flex justify-content-center align-items-center p-0">
+                <div className="darlcha3_opacity d-flex justify-content-center align-items-center">
+                  <p className="m-0">無 설탕</p>
+                </div>
+              </div>
+              <div className="darlcha3_img2 d-flex justify-content-center align-items-center mx-3 p-0">
+                <div className="darlcha3_opacity d-flex justify-content-center align-items-center">
+                  <p>無 카페인</p>
+                </div>
+              </div>
+              <div className="darlcha3_img3 d-flex justify-content-center align-items-center p-0">
+                <div className="darlcha3_opacity d-flex justify-content-center align-items-center">
+                  <p>락토프리우유</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="products d-flex flex-column align-items-center py-5">
+        <p className="product_intro_ko">무카페인 허브차</p>
+        <p className="product_intro_en my-0">HERBAL INFUSED TEA</p>
+        <div className="product_intro_des">
+          <p>
+            커피를 좋아하지만 카페인은 싫은 당신을 위한 '페이크 커피'입니다.
+            <br />
+            카페인이 전혀 없고, 칼로리도 낮고, 라떼 제품은 락토프리 우유를
+            사용하여
+            <br />
+            언제나 부담없이 즐기실 수 있답니다.
+          </p>
+        </div>
+        <div className="product container">
+          <div className="row">
+            <div className="product_li col"></div>
+            <div className="product_li col-5 d-flex justify-content-center">
+              <img
+                src="https://darlcha-store.s3.amazonaws.com/static/media/leaveme_home.151641c3.png"
+                className="product_li_image"
+                alt=""
+              />
+            </div>
+            <div className="product_li col"></div>
+            <div className="product_li col-12 d-flex justify-content-center mt-4">
+              <div className="product_li_txt d-flex flex-column">
+                <p className="product_li_titl">달차 검정보리라떼</p>
+                <p className="product_li_des">
+                  은은한 달콤함과 고소함이 특징인 검정보리 라떼입니다. 칼로리가
+                  100ml당 22.5칼로리로 시중 라떼의 1/4 수준이에요. 2021년 새롭게
+                  리뉴얼된 제품으로 더 풍부한 맛을 느껴보세요.
+                </p>
+                <p className="product_li_pkg">6 / 12 / 24 개입</p>
+
+                <div className="container p-0">
+                  <div className="row mx-0">
+                    <div className="col-3 p-0">
+                      <div className="product_li_price">
+                        <p>15,390 원~</p>
+                      </div>
+                    </div>
+                    <div className="col-5 p-0"></div>
+                    <div className="col d-flex align-items-end justify-content-between mb-1 p-0">
+                      <div className="product_btn d-flex align-items-end justify-content-between w-100">
+                        <div className="btn-per px-1">최대 25% 할인</div>
+                        <div className="btn-fir px-1 ml-2">첫구매 추가할인</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product container">
+          <div className="row">
+            <div className="product_li col"></div>
+            <div className="product_li col-5  d-flex justify-content-center">
+              <img
+                src="https://darlcha-store.s3.amazonaws.com/static/media/brightenme_home.71a01dc4.png"
+                className="product_li_image"
+                alt=""
+              />
+            </div>
+            <div className="product_li col"></div>
+            <div className="product_li col-12 d-flex justify-content-center mt-4">
+              <div className="product_li_txt d-flex flex-column">
+                <p className="product_li_titl">달차 검정보리오리지널</p>
+                <p className="product_li_des">
+                  진한 보리차와 아메리카노 사이의 고소함과 쌉쌀함을 특징으로
+                  하는 검정보리 오리지널입니다. 물 대신, 아메리카노 대신 카페인
+                  걱정없이 데일리 음료로 가볍게 즐기기에 제격이에요.
+                </p>
+                <p className="product_li_pkg">6 / 12 / 24 개입</p>
+
+                <div className="container p-0">
+                  <div className="row mx-0">
+                    <div className="col-3 p-0">
+                      <div className="product_li_price">
+                        <p>13,110 원~</p>
+                      </div>
+                    </div>
+                    <div className="col-5 p-0"></div>
+                    <div className="col d-flex align-items-end justify-content-between mb-1 p-0">
+                      <div className="product_btn d-flex align-items-end justify-content-between w-100">
+                        <div className="btn-per px-1">최대 25% 할인</div>
+                        <div className="btn-fir px-1 ml-2">첫구매 추가할인</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product container">
+          <div className="row">
+            <div className="product_li col"></div>
+            <div className="product_li col-5 d-flex justify-content-center">
+              <img
+                src="https://darlcha-store.s3.amazonaws.com/static/media/lostinme_home.0cc0c010.png"
+                className="product_li_image"
+                alt=""
+              />
+            </div>
+            <div className="product_li col"></div>
+            <div className="product_li col-12 d-flex justify-content-center mt-4">
+              <div className="product_li_txt d-flex flex-column">
+                <p className="product_li_titl">검정보리라떼 & 오리지널 번들</p>
+                <p className="product_li_des">
+                  검정보리 라떼와 오리지널을 한 번에 즐길 수 있는 번들
+                  제품입니다. 각 제품 6병씩 총 12병으로 구성되어 있어요. 둘 중
+                  어느 제품을 구매할지 고민되신다면, 번들을 선택해보세요.
+                </p>
+                <p className="product_li_pkg">12 개입(6 + 6)</p>
+
+                <div className="container p-0">
+                  <div className="row mx-0">
+                    <div className="col-3 p-0">
+                      <div className="product_li_price">
+                        <p>25,500 원~</p>
+                      </div>
+                    </div>
+                    <div className="col-5 p-0"></div>
+                    <div className="col d-flex align-items-end justify-content-between mb-1 p-0">
+                      <div className="product_btn d-flex align-items-end justify-content-between w-100">
+                        <div className="btn-per px-3">15% 할인</div>
+                        <div className="btn-fir px-1 ml-2">첫구매 추가할인</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product container">
+          <div className="row">
+            <div className="product_li col"></div>
+            <div className="product_li col-5 d-flex justify-content-center">
+              <img
+                src="https://darlcha-store.s3.amazonaws.com/static/media/teabundle_home.2e59047d.png"
+                className="product_li_image"
+                alt=""
+              />
+            </div>
+            <div className="product_li col"></div>
+            <div className="product_li col-12 d-flex justify-content-center mt-4">
+              <div className="product_li_txt d-flex flex-column">
+                <p className="product_li_titl">검정보리라떼 & 오리지널 번들</p>
+                <p className="product_li_des">
+                  검정보리 라떼와 오리지널을 한 번에 즐길 수 있는 번들
+                  제품입니다. 각 제품 6병씩 총 12병으로 구성되어 있어요. 둘 중
+                  어느 제품을 구매할지 고민되신다면, 번들을 선택해보세요.
+                </p>
+                <p className="product_li_pkg">12 개입(6 + 6)</p>
+
+                <div className="container p-0">
+                  <div className="row mx-0">
+                    <div className="col-3 p-0">
+                      <div className="product_li_price">
+                        <p>25,500 원~</p>
+                      </div>
+                    </div>
+                    <div className="col-5 p-0"></div>
+                    <div className="col d-flex align-items-end justify-content-between mb-1 p-0">
+                      <div className="product_btn d-flex align-items-end justify-content-between w-100">
+                        <div className="btn-per px-3">15% 할인</div>
+                        <div className="btn-fir px-1 ml-2">첫구매 추가할인</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Products;
