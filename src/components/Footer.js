@@ -3,8 +3,8 @@ import "../css/main.css";
 function Footer() {
   return (
     <div className="footer container mw-100">
-      <div className="row pb-3">
-        <div className="col px-4">
+      <div className="row pb-3 mx-5">
+        <div className="footer1 col px-4">
           <div className="footer_text pt-5">
             <p className="footer_titl m-0">주식회사 달차컴퍼니</p>
             <div className="horizon_line my-2"></div>
@@ -27,7 +27,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="col px-4">
+        <div className="footer2 col px-4">
           <div className="footer_text h-100 pt-5">
             <p className="footer_darlcha_text m-0">
               DARL<span>CHA</span>

@@ -3,7 +3,7 @@ import "../css/main.css";
 function Poster() {
   return (
     <div className="main_poster">
-      <div className="container d-flex">
+      <div className="main_poster__bg container d-flex">
         <div className="main_poster__text d-flex flex-column justify-content-center">
           <h3>남다른 차, 남다른 나</h3>
           <p>

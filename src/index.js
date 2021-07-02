@@ -1,16 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Nav from "./components/Nav";
-import Poster from "./components/Poster";
-import Products from "./components/Products";
-import Footer from "./components/Footer";
+import App from "./components/App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Nav />
-    <Poster />
-    <Products />
-    <Footer />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
